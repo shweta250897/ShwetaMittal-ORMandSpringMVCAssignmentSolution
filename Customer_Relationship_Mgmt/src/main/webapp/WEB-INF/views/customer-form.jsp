@@ -21,7 +21,6 @@
   <div class="container">
   <h4>Save Customer</h4>
   <form action="save" method="post">
-  
     <div class="form-group">
       <input type="hidden" class="form-control" id="id"  name="id" value="${customer.id}">
     </div>
@@ -37,13 +36,8 @@
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" value="${customer.email}">
     </div>
-    
     <button type="submit" class="btn btn-primary">Save</button>
   </form>
 </div>
- 
-  
-
-
 </body>
 </html>
